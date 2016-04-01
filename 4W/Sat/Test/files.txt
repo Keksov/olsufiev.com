@@ -1,0 +1,23 @@
+
+
+                            List Of Contents
+                            ****************
+
+
+This directory contains the HASP related documents.
+
+
+FILES
+~~~~~
+  FAQ.TXT      : Frequently asked questions.
+  NETHASP.INI  : NetHASP configuration file. Should be used with the API.
+  NETHASP.TXT  : NetHASP installation guide.
+  TROUBLE.TXT  : General advice on troubleshooting HASP problems.
+
+  MANUALS\HASPMAN.PDF   : HASP Programmer's Guide in PDF format.
+  MANUALS\MACMAN.PDF    : MacHASP Programmer's Guide in PDF format.
+
+  ALADDIN\DISTRIBS.PDF  : Aladdin list of worldwide distributors in PDF format
+
+  ACROBAT\AR40ENG.EXE   : Adobe Acrobat PDF Reader for Win32
+
