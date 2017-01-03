@@ -72,3 +72,11 @@ ol li {
 .quote {
     font-style: italic;
 }
+
+span.highlight {
+    background-color: light-green;
+}
+
+span.monospace {
+    font-family: monospace;
+}
