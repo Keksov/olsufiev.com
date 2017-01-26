@@ -36,6 +36,12 @@ table.sections.discussion td {
     margin: 0;
 }
 
+.epigraph {
+    text-align: left;
+    font-style: italic;
+    font-size: 8pt;
+}
+
 .text, .footnote {
     font-size: 10pt;
     text-indent: 10pt;
