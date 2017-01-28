@@ -54,7 +54,7 @@ class Converter(HTMLParser):
 					elif margin.endswith('in'):
 						margin_pt = float(margin[:-2]) * 72
 
-					level = int((margin_pt - 6.3) / 12.5)
+					level = int((margin_pt - 7.5) / 15)
 				else:
 					level = 1
 
@@ -86,7 +86,7 @@ class Converter(HTMLParser):
 			print('<div class="comment level%d" id="thread%d""><div class="header">' % (self.level, self.thread))
 			self.thread += 1
 
-		if self.state == 7 and tag == 'a':
+		if self.state == 8 and tag == 'a':
 			print('<a href="%s">' % d_attrs['href'])
 
 	def handle_endtag(self, tag):
@@ -106,7 +106,7 @@ class Converter(HTMLParser):
 			dt = data.replace('\r\n', '').replace('|', '')
 			if len(dt) > 0:
 				print(dt)
-		elif self.state == 8:
+		elif self.state == 9:
 			print(data + '</a>')
 
 converter = Converter()
